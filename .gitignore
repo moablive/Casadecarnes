@@ -1,5 +1,9 @@
-# dotenv environment variables file
-.env.*
+# Ignora dependências do Node.js
+node_modules/
 
-# Node modules
-/node_modules
+# Ignora arquivos de variáveis de ambiente
+.env
+
+# Opcional: Ignora outros arquivos comuns
+.DS_Store
+npm-debug.log
