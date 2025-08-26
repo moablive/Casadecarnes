@@ -1,0 +1,10 @@
+# dotenv environment variables file
+.env
+.env*.local
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Node modules
+/node_modules

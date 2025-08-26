@@ -1,0 +1,37 @@
+/* Navbar.css */
+.bg-custom-red {
+    background-color: #830000;
+}
+
+.hover\:bg-custom-red-dark:hover {
+    background-color: #830000;
+}
+
+/* Custom styles for mobile menu */
+@media (max-width: 768px) {
+    .hidden {
+        display: none;
+    }
+
+    .block {
+        display: block;
+    }
+}
+
+/* Ensure the submenu remains visible when hovering over it */
+.group:hover .group-hover\:block {
+    display: block;
+    opacity: 1;
+    pointer-events: auto; /* Permite interação somente quando visível */
+}
+
+.group-hover\:block {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none; /* Impede interação quando não visível */
+}
+
+.group:hover .group-hover\:translate-y-0 {
+    transform: translateY(0);
+}
