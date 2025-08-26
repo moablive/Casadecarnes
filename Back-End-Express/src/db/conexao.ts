@@ -1,11 +1,11 @@
 import mysql, { Connection } from 'mysql';
 
 const conexao: Connection = mysql.createConnection({
-    host: 'moab-server.ddns.me',
-    port: 3306,
-    user: 'moab',
-    password: 'Guilherme@1998',
-    database: 'XMLcasadeCarnes',
+    host: process.env.DB_HOST,
+    port: Number(process.env.DB_PORT),
+    user: process.env.DB_USER,
+    password: process.env.DB_PASSWORD,
+    database: process.env.DB_DATABASE,
 });
 
 export default conexao;
