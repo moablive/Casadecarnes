@@ -2,8 +2,10 @@
 node_modules/
 
 # Ignora arquivos de variáveis de ambiente
+# Ignora o .env principal e todas as suas variações (.env.local, .env.development, etc)
 .env
+.env.*
 
-# Opcional: Ignora outros arquivos comuns
+# Outros arquivos
 .DS_Store
 npm-debug.log
