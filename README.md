@@ -56,13 +56,13 @@ Siga os passos abaixo para configurar e executar o projeto em seu ambiente de de
     Crie um arquivo `.env` na raiz do projeto e adicione as credenciais do banco de dados:
 
     ```env
-    DB_HOST=moab-server.myddns.me
-    DB_USER=moab
-    DB_PASSWORD=Guilherme@1998
-    DB_DATABASE=XMLcasadeCarnes
-    DB_PORT=13306
-    PORT=3000
-    JWT_SECRET="G<yO:,=.}0[Gn?r1Re!9H(&PPbT?Z1|>n6;_4r$$tH]kZ82z_3A21>S."
+    DB_HOST=xxxxxxxxx
+    DB_USER=xxxxxxxxx
+    DB_PASSWORD=xxxxxxxxx
+    DB_DATABASE=xxxxxxxxx
+    DB_PORT=xxxxxxxxx
+    PORT=xxxxxxxxx
+    JWT_SECRET="xxxxxxxxx
     ```
 
 4. **Execute a aplicação:**
